@@ -45,7 +45,7 @@ export default function BookingForm() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="rounded-2xl p-6 sm:p-8 bg-white/5 border border-white/10">
           <h2 className="text-3xl font-bold text-white text-center">Booking & Kontakt</h2>
-          <p className="text-white/70 text-center mt-2">Udfyld formularen – vi vender tilbage inden for 24 timer.</p>
+          <p className="text-white/70 text-center mt-2">Alle forespørgsler sendes direkte til vores koordinator – du får svar inden for 24 timer.</p>
 
           <form onSubmit={handleSubmit} className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4 text-white">
             <input name="name" required placeholder="Navn" className="bg-black/40 border border-white/10 rounded-lg px-4 py-3" />

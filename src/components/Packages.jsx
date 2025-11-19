@@ -1,34 +1,33 @@
 const packages = [
   {
     name: 'Basic',
-    price: 'fra 4.995 kr.',
+    price: 'Fra 4.995 kr.',
     features: [
-      'Hjælp til planlægning',
-      'Forslag til location',
-      'Simpel udsmykning',
-      'Mail- og telefon-support',
+      'Planlægning og koordinering',
+      'Lokationsforslag',
+      'Simpel dekoration',
+      'Mail/telefonsupport',
     ],
   },
   {
     name: 'Standard',
-    price: 'fra 12.995 kr.',
+    price: 'Fra 12.995 kr.',
     features: [
       'Alt i Basic',
-      'Dekoration & temaopsætning',
-      'Koordinering med 1–2 leverandører',
+      'Temapynt og styling',
+      'Leverandørhåndtering',
       'Tidslinje for aftenen',
     ],
     highlight: true,
   },
   {
     name: 'Premium',
-    price: 'Skræddersys – få tilbud',
+    price: 'Pris: efter behov',
     features: [
       'Alt i Standard',
-      'Fuld koordination af hele eventet',
-      'Mad & drikke via partnere',
-      'DJ/musik, lys, pynt, location og tidsplan',
-      'Onsite koordinator på aftenen',
+      'Mad / drikke',
+      'Musik, lys og fuld koordinering',
+      'On-site koordinator',
     ],
   },
 ]
